@@ -1,0 +1,35 @@
+[
+    {
+        "id": "B27DCCN100",
+        "fullName": "Mai Thị Hoa",
+        "gender": "NO",
+        "birth_date": "10/10/2009",
+        "email": "hoamai@xmail.com",
+        "address": "Nghệ An",
+        "major": "CNTT",
+        "gpa": 3.25,
+        "year": 2
+    },
+    {
+        "id": "B27DCCN100",
+        "fullName": "Nguyễn Xuân Hoàng",
+        "gender": "Nam",
+        "birth_date": "01/01/2000",
+        "email": "hoangnguyen@xmail.com",
+        "address": "Ha Noi",
+        "major": "CNTT",
+        "gpa": 3.5,
+        "year": 2
+    },
+    {
+        "id": "B27DCCN101",
+        "fullName": "Trần Mỹ Ngọc",
+        "gender": "Nu",
+        "birth_date": "02/02/1999",
+        "email": "ngoctran@xmail.com",
+        "address": "Da Nang",
+        "major": "Kinh Te",
+        "gpa": 3.8,
+        "year": 3
+    }
+]

@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="Trở về"
+            android:padding="8dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Mã Sinh Viên"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/buttonEdit"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="Chỉnh sửa"
+            android:padding="8dp"
+            android:src="@drawable/ic_edit" />
+
+        <ImageView
+            android:id="@+id/buttonDelete"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="Xóa"
+            android:padding="8dp"
+            android:src="@drawable/ic_delete" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textViewFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và Tên"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewBirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày Sinh"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa Chỉ"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewMajor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chuyên Ngành"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewGpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điểm Trung Bình"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năm Học"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới Tính"
+        android:textSize="18sp" />
+</LinearLayout>
